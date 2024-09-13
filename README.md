@@ -1,0 +1,4 @@
+# Spell Corrector
+This project implements a spelling corrector using a trie data structure. The main components include the Trie, Node, SpellCorrector, and Main classes. The Trie class manages the insertion and lookup of words, while the Node class represents individual nodes within the trie. The SpellCorrector class leverages the trie to suggest corrections for misspelled words by generating possible edits and checking their validity against the dictionary. The Main class serves as the entry point, reading a dictionary file and an input word, and then outputting the closest correct spelling.
+
+To use the spelling corrector, provide a dictionary file and a word to correct as command-line arguments. The program will read the dictionary, build the trie, and then suggest the most likely correct spelling for the input word. This setup allows for efficient word lookups and corrections, making it a practical tool for applications requiring spell-check functionality.
